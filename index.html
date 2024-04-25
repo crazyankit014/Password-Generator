@@ -22,9 +22,45 @@
         </button>
       </div>
 
-      <div class="input-contaiber">
-        
+       <!-- password length section  -->
 
+      <div class="input-container">
+        <p>Password Length</p>
+        <p data-length>0</p>
+  
+        <!-- // SLIDER -->
+        <input type="range" min="1" max="20" class="slider" step="1" data-lengthSlider>
+
+       <!-- CHECKBOXES -->
+        <div>
+            <input type="checkbox" id="uppercase">
+            <label for="uppercase">Includes Uppercase Letters</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="lowercase">
+            <label for="lowercase">Includes Lowercase Letters</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="numbers">
+            <label for="numbers">Includes Numbers </label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="symbols">
+            <label for="symbols">Includes Symbols </label>
+        </div>
+
+        <!-- strength section -->
+
+        <div class="strength-container">
+            <p>strength</p>
+              <div data-indicator></div>
+        </div>
+              
+                 <!-- generate password -->
+         <button class="generateButton"> Generate Password</button>
       </div>
     </div>
   </body>
