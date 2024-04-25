@@ -71,3 +71,17 @@ function calcStrength() {
     setIndicator("#F00");
   }
 }
+
+async function copyContent() {
+  try {
+    await navigator.clipboard.writeText(passwordDisplay.value);
+    copyMsg.innerText = "copied";
+  } catch (e) {
+    copyMsg.innerText = "failed";
+  }
+  copyMsg.classList.add("active");
+
+  setTimeout(() => {
+    copyMsg.classList.remove("active");
+  }, 2000);
+}
