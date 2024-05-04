@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .display-container {
+    margin-bottom: 20px;
+  }
+  
+  .display {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .input-container div {
+    margin-bottom: 10px;
+  }
+  
+  .strength-container {
+    margin-bottom: 20px;
+  }
+  
+  .strength-container p {
+    margin: 5px 0;
+  }
+  
+  [data-indicator] {
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+  }
+  
+  [data-indicator].low {
+    background-color: #ff0000;
+  }
+  
+  [data-indicator].medium {
+    background-color: #ffbf00;
+  }
+  
+  [data-indicator].high {
+    background-color: #00ff00;
+  }
+  
+  .generateButton {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .generateButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Copy message 
+  [data-copyMsg] {
+    display: none;
+    margin-left: 5px;
+    color: #4caf50;
+  }
+  
+  [data-copyMsg].active {
+    display: inline;
+  }
+  
+/* 
+   *,
+   * ::before,
+   * ::after {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+  }
+
+  :root {
+    --dk-violet: hsl(268,75%,9%);
+    --lt-violet: hsl(268,47%,21%);
+    --lt-violet2: hsl(281,89%,26%);
+    --vb-violet: hsl(285,91%,52%);
+    --vb-violet2: hsl(290,70%,36%);
+
+    --vb-yellow: hsl(52,100%,62%);
+    --vb-yellow: hsl(0,0%,100%);
+    --vb-cyan: hsl(176,100%,44%);
+    --vb-cyan2: hsl(177,92%,70%);
+    --dk-text: hsl(198,20%,13%);
+  }
+
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(231deg, rgba(22,6,40,1)0%, rgba(52,28,79,1)50% , rgba(88,7,125,1)100%)
+  }
+
+  .container{
+    width: 90%;
+    max-width: 450px;
+  }
+
+  h1{
+    color : var(--pl-white);
+    opacity: 0.75;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .display-container{
+    position: relative;
+    background-color: var(--dk-violet);
+    border-radius: 1rem;
+    border-bottom: 0.35rem solid var(--lt-violet2);
+    margin: 1rem 0;
+    padding: 0.35rem;
+    
+}
+
+.display{
+  width: 100;
+  background-color: transparent;
+  padding: 1.15rem 1rem;
+  color: var(--vb-yellow);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding-right: 3.25rem;
+  border: none;
+}
+
+.display::placeholder{
+  position: absolute;
+  top: 50%;
+  left: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 30px;
+  color: var(--vb-yellow);
+  opacity: 0.65;
+  text-transform: uppercase;
+  transform: translateY(-50%);
+}
+
+.display-container button {
+  position: absolute;
+  top: 50%;
+  right: 1.5rem;
+  transform: translateY(-50%);
+}
+
+.input-container{
+  width: 100;
+  background-color: var(--dk-violet);
+  border-radius: 1rem;
+  padding: 2rem;
+  border-bottom: 0.35rem solid var(--lt-violet2);
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-container p:nth-child(1) {
+  color: var(--pl-white);
+  font-size: 1.5rem;
+}
+
+.input-container p:nth-child(2) {
+  color: var(--vb-yellow);
+  font-size: 1.5rem;
+}
+ */
